@@ -1,0 +1,25 @@
+Pianocat:
+    red     230
+    green   10
+    blue    6 
+    n_lives 1
+
+Ceilingcat:
+    red     7
+    green   4
+    blue    5
+    n_lives 9
+
+Happycat:
+    Pianocat + Ceilingcat
+    red     (230 + 7) / 2   =   118
+    green   (10 + 4) / 2    =   7
+    blue    (6 + 5) / 2     =   6
+    n_lives 9 + 1           =   10
+
+Pianocat (final):
+    Pianocat * Ceilingcat
+    red     (230 * 7)       =   255     (max value)
+    blue    (10 * 4)        =   40
+    green   (6 * 5)         =   30
+    n_lives 9 * 1           =   9
