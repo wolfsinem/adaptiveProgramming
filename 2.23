@@ -1,0 +1,11 @@
+Inheritance:
+    Inheritance is wanneer er een superklasse is die overeft wordt door klassen die deze klasse uitbreiden (extend). 
+    Je maakt hier je klasses op basis van wat een object is.
+
+Composition:
+    Hierbij kijk je naar het gedrag van een object, wat moet het kunnen doen? Er wordt één klasse aangemaakt met alle functionaliteiten,
+    Zo kunnen de juiste functionaliteiten gepakt worden en toegevoegd worden aan een object.
+
+De algemene regel is Composition over Inheritance. Dit is vooral belangrijk wanneer er een complexe hiërarchie ontstaat in je klassen.
+Wanneer je zeker weet dat code niet over tijd gewijzig moet worden kan er wel inheritance gebruikt worden, voor code die over tijd
+verandert en nieuwe functionaliteiten kan krijgen is het beter om Composition te gebruiken.
