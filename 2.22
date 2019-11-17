@@ -1,0 +1,24 @@
+The Diamond problem is een complicatie die kan optreden bij talen die meervoudige overerving supporten, 
+hierbij zijn er dus meerdere superklassen boven de desbetreffende klassen. 
+
+Stel:
+
+      Class A
+    /        \ 
+Class B     Class C
+    \        /
+      Class D
+
+Stel dat class A, B en C allen een functie hebben met naam x. 
+Als deze functie met naam x wordt aangeroepen binnen class D weet deze dus niet welke functie er uitgevoerd moet worden, 
+omdat deze op twee verschillende plekken is gedefiniëerd.
+
+Om dit probleem te voorkomen is er in C++ het keyword "virtual". Hiermee zorg je dat er maar één instantie gemaakt wordt van de superklasse A,
+Waardoor de klasse D weet waar hij naar toe moet wijzen.
+
+In C# bestaat het Diamond problem niet. Dit komt omdat er geen meervoudige overerving gesupport wordt.
+
+Voorbeelden van talen met dit probleem:
+- C++ 
+- OO Python
+- R
