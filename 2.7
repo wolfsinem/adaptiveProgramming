@@ -1,0 +1,53 @@
+int findGCD(int a, int b){
+    if(a == b){
+        return a;
+    }
+    else if(a>b){
+        return findGCD(a-b, b);
+    }
+    else {
+        return findGCD(a, b-a)
+    }
+}
+
+1.
+a = 900
+b = 280
+
+2.
+a = 620
+b = 280
+
+3.
+a = 340
+b = 280
+
+4.
+a = 60
+b = 280
+
+5.
+a = 60
+b = 220
+
+6.
+a = 60
+b = 160
+
+7.
+a = 60
+b = 100
+
+8.
+a = 60
+b = 40
+
+9.
+a = 20
+b = 40
+
+10.
+a = 20
+b = 20
+
+Dus 10 keer
