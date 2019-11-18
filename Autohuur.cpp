@@ -3,6 +3,8 @@
 #include <iomanip>
 using namespace std; 
 
+//g++ -std=c++17 Autohuur.cpp -o main
+//./main
 
 const string undefined{"undefined"};
 
