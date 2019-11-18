@@ -2,10 +2,10 @@
 
 
 //cd Desktop/adaptiveprogrammingSFML/
-//open main.cpp
+//open main2.cpp
 
 //g++ -std=c++17 main2.cpp point.cpp drawables.cpp -o main -DSFML_STATIC -I/Users/wolfsinem/Desktop/SFML/include -L/Users/wolfsinem/Desktop/SFML/lib  -lsfml-graphics -lsfml-window -lsfml-system
-//./mainn
+//./main
 
 int main() {
     sf::RenderWindow window(sf::VideoMode(700, 700), "SFML window");
