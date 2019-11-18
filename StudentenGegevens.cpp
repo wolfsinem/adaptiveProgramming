@@ -3,6 +3,9 @@
 #include <iomanip>
 using namespace std; 
 
+//g++ -std=c++17 StudentenGegevens.cpp -o main
+//./main
+
 struct StudentGegevens {
     string VolledigeNaam;
     int leeftijd;
