@@ -1,7 +1,10 @@
 #include <iostream> 
 #include <vector> 
 using namespace std; 
-  
+ 
+// g++ -std=c++17 Vector-Controle.cpp -o main
+// ./main
+
 bool VectorControle(const vector<bool>& controle){   
     int Aantal_True = 0;
     int Aantal_False = 0;
