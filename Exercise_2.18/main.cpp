@@ -1,8 +1,4 @@
-//cd Desktop/adaptiveprogrammingSFML/
-//open main.cpp
-
-//g++ -std=c++17 main2.cpp point.cpp drawables.cpp -o main -DSFML_STATIC -I/Users/wolfsinem/Desktop/SFML/include -L/Users/wolfsinem/Desktop/SFML/lib  -lsfml-graphics -lsfml-window -lsfml-system
-//./mainn
+//g++ -std=c++17 main.cpp -o main -DSFML_STATIC -I/Users/wolfsinem/Desktop/SFML/include -L/Users/wolfsinem/Desktop/SFML/lib  -lsfml-graphics -lsfml-window -lsfml-system
 
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
