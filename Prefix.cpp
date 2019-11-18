@@ -1,6 +1,9 @@
 #include <iostream> 
 using namespace std; 
-  
+ 
+// g++ -std=c++17 Prefix.cpp -o main
+// ./main 
+
 bool prefix(const string& a, const string& b){
     int count = 0;
     for (char ac : a){
