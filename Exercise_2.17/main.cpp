@@ -5,7 +5,7 @@
 
 using std::cout, std::endl;
 
-// g++ -std=c++17 -o main main.cpp game.cpp persoon.cpp; .\main.exe
+// g++ -std=c++17 -o main main.cpp game.cpp persoon.cpp; .\main
 int main(){
 int releaseJaar1 = 2018;
     int releaseJaar2 = 2017;
