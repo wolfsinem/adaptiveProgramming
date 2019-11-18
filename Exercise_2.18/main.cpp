@@ -1,9 +1,9 @@
-// Compileren op windows
-// Zorg dat je g++ 7.3 (minGW) en SFML 2.5.1 op de computer hebt staan, dit
-// luistert nauw. Het volgende is ´e´en regel.
-// g++ -std=c++17 main.cpp -o main -DSFML_STATIC -IC:\SFML-2.5.1\include
-// -LC:\SFML-2.5.1\lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s
-// -lopengl32 -lgdi32 -lws2_32 -lwinmm
+//cd Desktop/adaptiveprogrammingSFML/
+//open main.cpp
+
+//g++ -std=c++17 main2.cpp point.cpp drawables.cpp -o main -DSFML_STATIC -I/Users/wolfsinem/Desktop/SFML/include -L/Users/wolfsinem/Desktop/SFML/lib  -lsfml-graphics -lsfml-window -lsfml-system
+//./mainn
+
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
 #include <chrono>
