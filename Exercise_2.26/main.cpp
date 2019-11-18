@@ -1,7 +1,11 @@
 #include <iostream>
 #include "states.hpp"
 
-// g++ -std=c++17 main.cpp states.cpp -o markov; ./markov
+//cd Desktop/Adaptive-Programming/Exercise_2.26/
+//open main.cpp
+
+//g++ -std=c++17 main.cpp states.cpp -o main
+//./main
 
 int main() {
 
